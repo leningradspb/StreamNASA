@@ -10,14 +10,18 @@ import UIKit
 
 class DescriptionVC: UIViewController {
 
+	@IBOutlet weak var imageDescription: UIImageView!
 	var descriptionText = String()
 	var descriptionImage = UIImage()
 	var urlStringToShared = String()
+	@IBOutlet weak var labelDescription: UILabel!
 
-    override func viewDidLoad() {
+	
+	override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+		labelDescription.text = descriptionText
+		imageDescription.image = descriptionImage
     }
     
 

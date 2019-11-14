@@ -13,6 +13,35 @@ struct SearchResponse: Decodable {
 }
 
 struct NASAItems: Decodable {
+   // var links: [Links]
+    var items: [Items]
+}
+
+//struct Links: Decodable {
+//    var rel: String?
+//    var href: String?
+//	var promt: String?
+//}
+
+struct Items: Decodable {
+    var data: [ItemData]
+	var links: [Links]?
+}
+
+struct ItemData: Decodable {
+    var title: String?
+    var media_type: String?
+    var center: String?
+}
+
+struct Links: Decodable {
+	var render: String?
+    var href: String?
+	var rel: String?
+}
+
+/*
+struct NASAItems: Decodable {
     var links: [Links]
     var items: [Items]
 }
@@ -38,5 +67,4 @@ struct Links2: Decodable {
 	var render: String?
     var href: String?
 	var rel: String?
-}
-
+}*/

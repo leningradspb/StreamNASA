@@ -16,5 +16,12 @@ class NasaCell: UICollectionViewCell {
 	@IBOutlet weak var cellLabel: UILabel!
 
 	var urlStringToShare = String()
+
+//	override func prepareForReuse() {
+//
+//		cellImage.image = nil
+//
+//		super.prepareForReuse()
+//	}
 }
 
