@@ -68,7 +68,7 @@
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.052011986301369863" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aRb-C8-ylJ" secondAttribute="trailing" id="UJt-qx-l2F"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aRb-C8-ylJ" secondAttribute="bottom" id="cAb-q2-P1K"/>
@@ -108,11 +108,11 @@
                                     <constraint firstAttribute="width" constant="343" id="uha-zg-SJl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="35"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.050981052220000003" green="0.050979159769999997" blue="0.050980441270000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Kiz-yc-0TO" firstAttribute="top" secondItem="XgZ-sO-azy" secondAttribute="bottom" constant="23" id="04j-MS-Cbf"/>
                             <constraint firstItem="XgZ-sO-azy" firstAttribute="centerX" secondItem="cnP-za-pDR" secondAttribute="centerX" id="9Sa-pA-UtX"/>

@@ -134,6 +134,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
 
+		//	DispatchQueue.global(qos: .userInitiated).async {
             if let error = error {
                 print(error)
                 return
@@ -145,7 +146,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
                 cell.cellImage.image = UIImage(data: data)
 				//collectionView.reloadData()
             }
-
+		//}
         }
 
         task.resume()
